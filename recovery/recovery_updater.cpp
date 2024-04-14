@@ -34,6 +34,6 @@ result:
   return StringValue(std::to_string(ret));
 }
 
-void Register_librecovery_updater_exynos9611() {
+void Register_librecovery_updater_exynos1280() {
   RegisterFunction("exynos1280.verify_bootloader_min", VerifyBootloader);
 }
