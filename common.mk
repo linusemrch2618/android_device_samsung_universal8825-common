@@ -28,6 +28,9 @@ else
 DEVICE_PACKAGE_OVERLAYS += $(COMMON_PATH)/overlay-nofod
 endif
 
+# VNDK
+PRODUCT_TARGET_VNDK_VERSION := 30
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio.service \
